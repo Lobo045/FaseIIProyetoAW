@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FaseiiAW</title>
+    </style>
+  </head>
+  <body>
+    <form>
+        <a href= "Tabla.html"> Lista de Tareas</a>
+        <br>
+
+        <div>
+        <label for="idTarea">ID de tarea</label>
+        <input id="idTarea" type="number" name="1idTarea" required>
+            </div>
+
+        <br>
+
+        <div>
+        <label for="tareaNombre">Nombre de la tarea</label>
+        <input id="tareaNombre" type="text" name="1tareaNombre" required>
+        </div>
+
+        <br>
+
+
+        <div class="fromBox">
+        <label for="tareaDescripcion">Descrpcion de la tarea</label>
+        <input id="tareaDescripcion" type="text" name="1tareaDescripcion">
+        </div>
+
+        <br>
+
+        <div class="fromBox">
+        <label for="fechaInicio">Fecha de inicio</label>
+        <input id="fechaInicio" type="date" name="1fechaInicio" required>  
+        </div>
+
+        <br>
+
+        <div class="fromBox">
+        <label for="clienteNombre">Nombre del cliente</label>
+        <input id="clienteNombre" type="text" name="1clienteNombre" required>
+        </div>
+
+        <br>
+
+        <div class="fromBox">
+        <label for="idProyecto">Id del proyecto</label>
+        <input id="idProyecto" type="number" name="1idProyecto" required>
+        </div>
+
+        <br>
+
+        <div class="fromBox">
+        <label for="seccionComentarios">comentarios sobre el proyecto</label>
+        <input id="seccionComentarios" type="text" name="1seccionComentarios">
+        </div>
+
+        <br>
+            
+        <div class="fromBox">
+        <label for="estatus">Estatus del proyecto:</label>
+        <label>En proceso</label>
+        <input id="estatus" type="radio" name="1estatus" value="Por hacer">
+        <label>Acabado</label>
+        <input id="estatus" type="radio" name="1estatus" value="acabado">
+        </div>
+
+        <div class="fromBox"> 
+            <button id="btn"> Guardar</button>
+        </div>
+
+        <div id="msg">
+            <pre></pre>
+        </div>
+    </form>
+    <script src="Start.js">
+    </script>
+</body>
+</html>
